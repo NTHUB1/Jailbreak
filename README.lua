@@ -1,4 +1,4 @@
-                              --V1--
+   --V1--
 --MENU                  
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Night Hub", "BloodTheme")
@@ -104,68 +104,6 @@ while wait() do
 end
 end)
 --
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --CREDIT
 local Tab = Window:NewTab("CREDIT")
 local Section = Tab:NewSection("Night Hub")
@@ -174,3 +112,4 @@ local Section = Tab:NewSection("Fly by Jam#0007")
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F1, function()
 	Library:ToggleUI()
 end)
+--
